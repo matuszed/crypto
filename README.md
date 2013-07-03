@@ -19,9 +19,13 @@ cryp.req('cancelorder',{"orderid":order_id})
 
 #Example Get Funds
 account_info=cryp.req('getinfo')
+
 orig_crypto_ltc_amount=float(account_info['data']['funds']['ltc'])
+
 orig_crypto_btc_amount=float(account_info['data']['funds']['btc'])
+
 orig_crypto_usd_amount=float(account_info['data']['funds']['usd'])
+
 
 #Example Get and Cancel Last Two Days of Orders
 unix_time_lag=int(time.time()-166400)
