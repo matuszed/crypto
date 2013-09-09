@@ -5,10 +5,10 @@ Python class for interacting with the crypto-trade api
 
 
 Simple class for interacting with the crypto-trade api.
-For full usage make sure to check the crypto trade api documentaion.
+For full usage make sure to check the crypto trade api documentation.
 https://www.crypto-trade.com/api/documentation
 
-I'll be working on better functrions for some of the examples outlined below.
+I'll be working on better functions for some of the examples outlined below.
 
 
 #Example placing an order  		
